@@ -72,7 +72,6 @@ def replay_http(url):
     """
     New Replay route for global apps
     """
-    print(url)
     uid = 'global'
     pretender.exists_or_404('http', uid)
     request_info = RequestSerialiser(url, bottle.request)
