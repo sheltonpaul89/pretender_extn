@@ -122,4 +122,4 @@ def pretender_delete(protocol):
             LOGGER.debug("Pretender: {0}".format(server))
             if server.is_expired:
                 LOGGER.info("Deleting pretender with UID: {0}".format(uid))
-                delete_mock(protocol, uid)
+                #delete_mock(protocol, uid)
