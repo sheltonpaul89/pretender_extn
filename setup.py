@@ -7,7 +7,7 @@ from pretend_extended import __version__
 
 setup(
     name='pretend_extended',
-    version='1.2.6',
+    version='2.1',
     description='Fake servers for testing',
     long_description=open('README.rst').read(),
     author='Shelton Paul Infant',
