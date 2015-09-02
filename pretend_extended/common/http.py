@@ -247,5 +247,5 @@ class MatchRule(object):
                      no_match = re.match(body_pattern[1], ascii_to_binary(body)) is None
                  return match and no_match
             else:
-                return True if self.body == ascii_to_binary(body) else False
+                return True if re.match(self.body, ascii_to_binary(body)) is not None else False
         return True
